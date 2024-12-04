@@ -1,6 +1,3 @@
-# Previsao_renda1
-## [Link](https://previsaorenda1-ebac.streamlit.app/)
-
 # Projeto 02 - Previsão de Renda
 
 Este projeto tem como objetivo prever a **renda dos indivíduos** com base em diversas características demográficas e socioeconômicas. O desenvolvimento foi estruturado com base na metodologia **CRISP-DM**, abrangendo todas as etapas de análise de dados e construção de modelos preditivos.
@@ -77,7 +74,7 @@ Modelos de Machine Learning utilizados:
 Os resultados mostram que tanto a Regressão Linear quanto a Árvore de Regressão possuem limitações no desempenho, com espaço para melhorias futuras na engenharia de features e uso de modelos mais complexos.
 
 ### 6. Deployment
-O modelo foi implementado em um aplicativo web utilizando **Streamlit**. O app permite:
+O modelo foi implementado em um aplicativo web utilizando **Streamlit** [Link](https://previsaorenda1-ebac.streamlit.app/). O app permite:
 - Upload de novos dados.
 - Geração de previsões de renda.
 - Visualização interativa dos resultados.
@@ -92,6 +89,18 @@ Foram realizadas diversas análises exploratórias e visualizações, como:
 - Análises por categoria (ex.: renda por tipo de renda, educação, etc.).
 
 ---
+## 🛠️ Tecnologias Utilizadas:
+- Python: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn.
+- Streamlit: Para desenvolvimento do aplicativo.
+- CRISP-DM: Metodologia de análise de dados.
+
+## 🔮 Próximos Passos
+- Explorar modelos mais complexos, como Random Forests e XGBoost.
+- Realizar tuning mais avançado de hiperparâmetros.
+- Investir em engenharia de features para melhorar a performance dos modelos.
+
+## 🤝 Contribuições
+- Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
 ## 📁 Estrutura do Projeto
 ```plaintext
@@ -101,3 +110,5 @@ Foram realizadas diversas análises exploratórias e visualizações, como:
 ├── models/              # Modelos treinados
 ├── README.md            # Documentação do projeto
 └── requirements.txt     # Dependências do projeto
+
+
